@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "author": "Chinua Achebe",
+    "language": "English",
+    "title": "Things Fall Apart"
+  },
+  {
+    "id": 2,
+    "author": "Hans Christian Andersen",
+    "language": "Danish",
+    "title": "Fairy tales"
+  },
+  {
+    "id": 3,
+    "author": "Dante Alighieri",
+    "language": "Italian",
+    "title": "The Divine Comedy"
+  },
+  {
+    "id": 4,
+    "author": "Unknown",
+    "language": "Akkadian",
+    "title": "The Epic Of Gilgamesh"
+  },
+  {
+    "id": 5,
+    "author": "Unknown",
+    "language": "Hebrew",
+    "title": "The Book Of Job"
+  },
+  {
+    "id": 6,
+    "author": "Unknown",
+    "language": "Arabic",
+    "title": "One Thousand and One Nights"
+  },
+  {
+    "id": 7,
+    "author": "Unknown",
+    "language": "Old Norse",
+    "title": "Nj\u00e1l's Saga"
+  },
+  {
+    "id": 8,
+    "author": "Jane Austen",
+    "language": "English",
+    "title": "Pride and Prejudice"
+  },
+  {
+    "id": 9,
+    "author": "Honor\u00e9 de Balzac",
+    "language": "French",
+    "title": "Le P\u00e8re Goriot"
+  },
+  {
+    "id": 10,
+    "author": "Samuel Beckett",
+    "language": "French, English",
+    "title": "Molloy, Malone Dies, The Unnamable, the trilogy"
+  },
+  {
+    "id": 11,
+    "author": "Giovanni Boccaccio",
+    "language": "Italian",
+    "title": "The Decameron"
+  },
+  {
+    "id": 12,
+    "author": "Jorge Luis Borges",
+    "language": "Spanish",
+    "title": "Ficciones"
+  },
+  {
+    "id": 13,
+    "author": "Emily Bront\u00eb",
+    "language": "English",
+    "title": "Wuthering Heights"
+  },
+  {
+    "id": 14,
+    "author": "Albert Camus",
+    "language": "French",
+    "title": "The Stranger"
+  },
+  {
+    "id": 15,
+    "author": "Paul Celan",
+    "language": "German",
+    "title": "Poems"
+  },
+  {
+    "id": 16,
+    "author": "Louis-Ferdinand C\u00e9line",
+    "language": "French",
+    "title": "Journey to the End of the Night"
+  },
+  {
+    "id": 17,
+    "author": "Miguel de Cervantes",
+    "language": "Spanish",
+    "title": "Don Quijote De La Mancha"
+  },
+  {
+    "id": 18,
+    "author": "Geoffrey Chaucer",
+    "language": "English",
+    "title": "The Canterbury Tales"
+  },
+  {
+    "id": 19,
+    "author": "Anton Chekhov",
+    "language": "Russian",
+    "title": "Stories"
+  },
+  {
+    "id": 20,
+    "author": "Joseph Conrad",
+    "language": "English",
+    "title": "Nostromo"
+  },
+  {
+    "id": 21,
+    "author": "Charles Dickens",
+    "language": "English",
+    "title": "Great Expectations"
+  },
+  {
+    "id": 22,
+    "author": "Denis Diderot",
+    "language": "French",
+    "title": "Jacques the Fatalist"
+  },
+  {
+    "id": 23,
+    "author": "Alfred D\u00f6blin",
+    "language": "German",
+    "title": "Berlin Alexanderplatz"
+  },
+  {
+    "id": 24,
+    "author": "Fyodor Dostoevsky",
+    "language": "Russian",
+    "title": "Crime and Punishment"
+  },
+  {
+    "id": 25,
+    "author": "Fyodor Dostoevsky",
+    "language": "Russian",
+    "title": "The Idiot"
+  },
+  {
+    "id": 26,
+    "author": "Fyodor Dostoevsky",
+    "language": "Russian",
+    "title": "The Possessed"
+  },
+  {
+    "id": 27,
+    "author": "Fyodor Dostoevsky",
+    "language": "Russian",
+    "title": "The Brothers Karamazov"
+  },
+  {
+    "id": 28,
+    "author": "George Eliot",
+    "language": "English",
+    "title": "Middlemarch"
+  },
+  {
+    "id": 29,
+    "author": "Ralph Ellison",
+    "language": "English",
+    "title": "Invisible Man"
+  },
+  {
+    "id": 30,
+    "author": "Euripides",
+    "language": "Greek",
+    "title": "Medea"
+  },
+  {
+    "id": 31,
+    "author": "William Faulkner",
+    "language": "English",
+    "title": "Absalom, Absalom!"
+  },
+  {
+    "id": 32,
+    "author": "William Faulkner",
+    "language": "English",
+    "title": "The Sound and the Fury"
+  },
+  {
+    "id": 33,
+    "author": "Gustave Flaubert",
+    "language": "French",
+    "title": "Madame Bovary"
+  },
+  {
+    "id": 34,
+    "author": "Gustave Flaubert",
+    "language": "French",
+    "title": "Sentimental Education"
+  },
+  {
+    "id": 35,
+    "author": "Federico Garc\u00eda Lorca",
+    "language": "Spanish",
+    "title": "Gypsy Ballads"
+  },
+  {
+    "id": 36,
+    "author": "Gabriel Garc\u00eda M\u00e1rquez",
+    "language": "Spanish",
+    "title": "One Hundred Years of Solitude"
+  },
+  {
+    "id": 37,
+    "author": "Gabriel Garc\u00eda M\u00e1rquez",
+    "language": "Spanish",
+    "title": "Love in the Time of Cholera"
+  },
+  {
+    "id": 38,
+    "author": "Johann Wolfgang von Goethe",
+    "language": "German",
+    "title": "Faust"
+  },
+  {
+    "id": 39,
+    "author": "Nikolai Gogol",
+    "language": "Russian",
+    "title": "Dead Souls"
+  },
+  {
+    "id": 40,
+    "author": "G\u00fcnter Grass",
+    "language": "German",
+    "title": "The Tin Drum"
+  },
+  {
+    "id": 41,
+    "author": "Jo\u00e3o Guimar\u00e3es Rosa",
+    "language": "Portuguese",
+    "title": "The Devil to Pay in the Backlands"
+  },
+  {
+    "id": 42,
+    "author": "Knut Hamsun",
+    "language": "Norwegian",
+    "title": "Hunger"
+  },
+  {
+    "id": 43,
+    "author": "Ernest Hemingway",
+    "language": "English",
+    "title": "The Old Man and the Sea"
+  },
+  {
+    "id": 44,
+    "author": "Homer",
+    "language": "Greek",
+    "title": "Iliad"
+  },
+  {
+    "id": 45,
+    "author": "Homer",
+    "language": "Greek",
+    "title": "Odyssey"
+  },
+  {
+    "id": 46,
+    "author": "Henrik Ibsen",
+    "language": "Norwegian",
+    "title": "A Doll's House"
+  },
+  {
+    "id": 47,
+    "author": "James Joyce",
+    "language": "English",
+    "title": "Ulysses"
+  },
+  {
+    "id": 48,
+    "author": "Franz Kafka",
+    "language": "German",
+    "title": "Stories"
+  },
+  {
+    "id": 49,
+    "author": "Franz Kafka",
+    "language": "German",
+    "title": "The Trial"
+  },
+  {
+    "id": 50,
+    "author": "Franz Kafka",
+    "language": "German",
+    "title": "The Castle"
+  },
+  {
+    "id": 51,
+    "author": "K\u0101lid\u0101sa",
+    "language": "Sanskrit",
+    "title": "The recognition of Shakuntala"
+  },
+  {
+    "id": 52,
+    "author": "Yasunari Kawabata",
+    "language": "Japanese",
+    "title": "The Sound of the Mountain"
+  },
+  {
+    "id": 53,
+    "author": "Nikos Kazantzakis",
+    "language": "Greek",
+    "title": "Zorba the Greek"
+  },
+  {
+    "id": 54,
+    "author": "D. H. Lawrence",
+    "language": "English",
+    "title": "Sons and Lovers"
+  },
+  {
+    "id": 55,
+    "author": "Halld\u00f3r Laxness",
+    "language": "Icelandic",
+    "title": "Independent People"
+  },
+  {
+    "id": 56,
+    "author": "Giacomo Leopardi",
+    "language": "Italian",
+    "title": "Poems"
+  },
+  {
+    "id": 57,
+    "author": "Doris Lessing",
+    "language": "English",
+    "title": "The Golden Notebook"
+  },
+  {
+    "id": 58,
+    "author": "Astrid Lindgren",
+    "language": "Swedish",
+    "title": "Pippi Longstocking"
+  },
+  {
+    "id": 59,
+    "author": "Lu Xun",
+    "language": "Chinese",
+    "title": "Diary of a Madman"
+  },
+  {
+    "id": 60,
+    "author": "Naguib Mahfouz",
+    "language": "Arabic",
+    "title": "Children of Gebelawi"
+  },
+  {
+    "id": 61,
+    "author": "Thomas Mann",
+    "language": "German",
+    "title": "Buddenbrooks"
+  },
+  {
+    "id": 62,
+    "author": "Thomas Mann",
+    "language": "German",
+    "title": "The Magic Mountain"
+  },
+  {
+    "id": 63,
+    "author": "Herman Melville",
+    "language": "English",
+    "title": "Moby Dick"
+  },
+  {
+    "id": 64,
+    "author": "Michel de Montaigne",
+    "language": "French",
+    "title": "Essays"
+  },
+  {
+    "id": 65,
+    "author": "Elsa Morante",
+    "language": "Italian",
+    "title": "History"
+  },
+  {
+    "id": 66,
+    "author": "Toni Morrison",
+    "language": "English",
+    "title": "Beloved"
+  },
+  {
+    "id": 67,
+    "author": "Murasaki Shikibu",
+    "language": "Japanese",
+    "title": "The Tale of Genji"
+  },
+  {
+    "id": 68,
+    "author": "Robert Musil",
+    "language": "German",
+    "title": "The Man Without Qualities"
+  },
+  {
+    "id": 69,
+    "author": "Vladimir Nabokov",
+    "language": "English",
+    "title": "Lolita"
+  },
+  {
+    "id": 70,
+    "author": "George Orwell",
+    "language": "English",
+    "title": "Nineteen Eighty-Four"
+  },
+  {
+    "id": 71,
+    "author": "Ovid",
+    "language": "Classical Latin",
+    "title": "Metamorphoses"
+  },
+  {
+    "id": 72,
+    "author": "Fernando Pessoa",
+    "language": "Portuguese",
+    "title": "The Book of Disquiet"
+  },
+  {
+    "id": 73,
+    "author": "Edgar Allan Poe",
+    "language": "English",
+    "title": "Tales"
+  },
+  {
+    "id": 74,
+    "author": "Marcel Proust",
+    "language": "French",
+    "title": "In Search of Lost Time"
+  },
+  {
+    "id": 75,
+    "author": "Fran\u00e7ois Rabelais",
+    "language": "French",
+    "title": "Gargantua and Pantagruel"
+  },
+  {
+    "id": 76,
+    "author": "Juan Rulfo",
+    "language": "Spanish",
+    "title": "Pedro P\u00e1ramo"
+  },
+  {
+    "id": 77,
+    "author": "Rumi",
+    "language": "Persian",
+    "title": "The Masnavi"
+  },
+  {
+    "id": 78,
+    "author": "Salman Rushdie",
+    "language": "English",
+    "title": "Midnight's Children"
+  },
+  {
+    "id": 79,
+    "author": "Saadi",
+    "language": "Persian",
+    "title": "Bostan"
+  },
+  {
+    "id": 80,
+    "author": "Tayeb Salih",
+    "language": "Arabic",
+    "title": "Season of Migration to the North"
+  },
+  {
+    "id": 81,
+    "author": "Jos\u00e9 Saramago",
+    "language": "Portuguese",
+    "title": "Blindness"
+  },
+  {
+    "id": 82,
+    "author": "William Shakespeare",
+    "language": "English",
+    "title": "Hamlet"
+  },
+  {
+    "id": 83,
+    "author": "William Shakespeare",
+    "language": "English",
+    "title": "King Lear"
+  },
+  {
+    "id": 84,
+    "author": "William Shakespeare",
+    "language": "English",
+    "title": "Othello"
+  },
+  {
+    "id": 85,
+    "author": "Sophocles",
+    "language": "Greek",
+    "title": "Oedipus the King"
+  },
+  {
+    "id": 86,
+    "author": "Stendhal",
+    "language": "French",
+    "title": "The Red and the Black"
+  },
+  {
+    "id": 87,
+    "author": "Laurence Sterne",
+    "language": "English",
+    "title": "The Life And Opinions of Tristram Shandy"
+  },
+  {
+    "id": 88,
+    "author": "Italo Svevo",
+    "language": "Italian",
+    "title": "Confessions of Zeno"
+  },
+  {
+    "id": 89,
+    "author": "Jonathan Swift",
+    "language": "English",
+    "title": "Gulliver's Travels"
+  },
+  {
+    "id": 90,
+    "author": "Leo Tolstoy",
+    "language": "Russian",
+    "title": "War and Peace"
+  },
+  {
+    "id": 91,
+    "author": "Leo Tolstoy",
+    "language": "Russian",
+    "title": "Anna Karenina"
+  },
+  {
+    "id": 92,
+    "author": "Leo Tolstoy",
+    "language": "Russian",
+    "title": "The Death of Ivan Ilyich"
+  },
+  {
+    "id": 93,
+    "author": "Mark Twain",
+    "language": "English",
+    "title": "The Adventures of Huckleberry Finn"
+  },
+  {
+    "id": 94,
+    "author": "Valmiki",
+    "language": "Sanskrit",
+    "title": "Ramayana"
+  },
+  {
+    "id": 95,
+    "author": "Virgil",
+    "language": "Classical Latin",
+    "title": "The Aeneid"
+  },
+  {
+    "id": 96,
+    "author": "Vyasa",
+    "language": "Sanskrit",
+    "title": "Mahabharata"
+  },
+  {
+    "id": 97,
+    "author": "Walt Whitman",
+    "language": "English",
+    "title": "Leaves of Grass"
+  },
+  {
+    "id": 98,
+    "author": "Virginia Woolf",
+    "language": "English",
+    "title": "Mrs Dalloway"
+  },
+  {
+    "id": 99,
+    "author": "Virginia Woolf",
+    "language": "English",
+    "title": "To the Lighthouse"
+  },
+  {
+    "id": 100,
+    "author": "Marguerite Yourcenar",
+    "language": "French",
+    "title": "Memoirs of Hadrian"
+  }
+]
