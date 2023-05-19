@@ -130,3 +130,28 @@ request
 session
 
 request_context.push()
+
+>>> from sampleapp import app
+>>> from flask import current_app
+>>> app_ctx = app.app_context()
+>>> app_ctx.push()
+>>> current_app.name
+
+ 
+
+>>> app.url_map: lists al routes
+Map([<Rule '/static/<filename>' (HEAD, OPTIONS, GET) -> static>,
+ <Rule '/' (HEAD, OPTIONS, GET) -> index>,
+ <Rule '/<name>' (HEAD, OPTIONS, GET) -> print_name>])
+
+>>> from flask import request
+>>> req_ctx=app.request_context()
+>>> req_ctx.push()
+>>> request.url
+
+Response object methods
+.set_cookie()
+.delete_cookie()
+.set_data()
+.get_data()
+
