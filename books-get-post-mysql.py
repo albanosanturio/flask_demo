@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import json
-import sqlite3
+import pymysql
 
 app = Flask(__name__)
 
@@ -16,11 +16,29 @@ app = Flask(__name__)
 #def print_name(name):
 #    return 'Welcome , {}'.format(name)
 
+
+
+
 def db_connection():
+
+#external file to avoid hardcoding credentials
+    credentials_file = open('mysql-credentials.json')
+    cred_load = json.load(credentials_file)
+    db_name = cred_load[0]['Database_name']
+    db_user = cred_load[0]['Database_user']
+    db_pass = cred_load[0]['Database_password']
+    
     conn = None
     try:
-        conn = sqlite3.connect('books.sqlite')
-    except sqlite3.error as e:
+        conn = pymysql.connect(
+            host='sql10.freesqldatabase.com',
+            database=db_name,
+            user=db_user,
+            password=db_pass,
+            charset='utf8mb4',
+            cursorclass=pymysql.cursors.DictCursor
+        )
+    except pymysql.error as e:
       print(e)
     return conn
 
@@ -31,9 +49,10 @@ def books():
     cursor = conn.cursor()
 
     if request.method == 'GET':
-        cursor = conn.execute("SELECT * FROM book")
+        cursor = cursor.execute("SELECT * FROM book")
+        #For mysql we have to use dictionary keys
         books = [
-            dict(id=row[0], author=row[1], language=row[2], title=row[3])
+            dict(id=row['id'], author=row['author'], language=row['language'], title=row['title'])
             for row in cursor.fetchall()
         ]
         if books is not None:
@@ -46,9 +65,10 @@ def books():
         new_lang = request.form['language']
         new_title = request.form['title']
         
+        #in pymysql we do not use ? placeholders, we use %s instead
         sql = """ INSERT INTO book (author, language, title)
-                  VALUES (?, ?, ?)"""
-        cursor = conn.execute(sql, (new_author, new_lang, new_title))
+                  VALUES (%s, %s, %s)"""
+        cursor = cursor.execute(sql, (new_author, new_lang, new_title))
         conn.commit()
         return f"Book with the id: {cursor.lastrowid} created successfully",201
 

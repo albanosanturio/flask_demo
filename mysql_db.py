@@ -4,7 +4,6 @@ import json
 #external file to avoid hardcoding credentials
 credentials_file = open('mysql-credentials.json')
 cred_load = json.load(credentials_file)
-
 db_name = cred_load[0]['Database_name']
 db_user = cred_load[0]['Database_user']
 db_pass = cred_load[0]['Database_password']
@@ -28,4 +27,11 @@ sql_query = """ CREATE TABLE  book (
 )"""
 
 cursor.execute(sql_query)
+
+#sql_insert_query =  """INSERT INTO `book` 
+#                            (`id`, `author`, `language`, `title`) 
+#                    VALUES  ('2', 'ray bradbury', 'english', 'fahrenheit'), 
+#                            ('3', 'walt white', 'english', 'catcher in the');
+#                    """
+
 conn.close()
